@@ -9,11 +9,9 @@ asimov-test
 
 ### Install from NPM
 
-    $ npm install --save asimov-test
+    $ npm install --saveDev asimov-test
 
 ### Create a test file
-
-The interface is based on Mocha and Chai, so it should be familiar.
 
 ```
 var test = require('asimov-test');
@@ -27,4 +25,20 @@ test('myAwesomeTest', function (test) {
     });
   });
 });
+```
+
+### Add test command to your package.json
+
+```
+...
+"scripts": {
+  "test": "node node_modules/asimov-test/node_modules/mocha/bin/mocha tests/**/*.test.js"
+}
+...
+```
+
+### Run the tests
+
+```
+$ npm test
 ```

@@ -14,5 +14,8 @@
     "sinon-chai": "^2.5.0",
     "wunderbits.core": "^0.1.7",
     "zombie": "^2.0.0-alpha31"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha tests/**/*.test.js"
   }
 }
