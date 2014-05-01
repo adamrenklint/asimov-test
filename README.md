@@ -42,3 +42,7 @@ test('myAwesomeTest', function (test) {
 ```
 $ npm test
 ```
+
+---
+
+Made by [Adam Renklint](http://adamrenklint.com), Berlin 2014. [MIT licensed](https://github.com/adamrenklint/asimov-test/blob/master/LICENSE).
