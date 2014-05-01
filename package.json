@@ -5,15 +5,21 @@
   "main": "index.js",
   "author": "Adam Renklint <adam@renklint.com> (http://adamrenklint.com)",
   "license": "MIT",
-  "devDependencies": {
-    "mocha": "~1.18.2"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adamrenklint/asimov-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamrenklint/asimov-test/issues"
   },
   "dependencies": {
+    "mocha": "~1.18.2",
     "chai": "^1.9.1",
     "sinon": "^1.9.1",
     "sinon-chai": "^2.5.0",
     "wunderbits.core": "^0.1.7",
-    "zombie": "^2.0.0-alpha31"
+    "zombie": "^2.0.0-alpha31",
+    "asimov-core": "0.1.0"
   },
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha tests/**/*.test.js"
