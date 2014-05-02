@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 0.10
+
+env:
+  - TRAVIS=true
+
+git:
+  depth: 1
+
+install:
+  - npm install
+
+script:
+  - npm test
