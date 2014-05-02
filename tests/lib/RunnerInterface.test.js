@@ -1,7 +1,7 @@
+var test = require('../../index');
 var RunnerInterface = require('../../lib/RunnerInterface');
-var Test = require('../../index');
 
-Test.run('runner/RunnerInterface', function (test) {
+test('runner/RunnerInterface', function (test) {
 
   var instance;
 
@@ -70,8 +70,8 @@ Test.run('runner/RunnerInterface', function (test) {
     });
   });
 
-  test.integration('/', function () {
+  // test.integration('/', function () {
 
-    test.itShould.loadPage();
-  });
+  //   test.itShould.loadPage();
+  // });
 });

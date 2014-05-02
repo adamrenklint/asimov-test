@@ -13,7 +13,7 @@ asimov-test
 
 ### Create a test file
 
-```
+```javascript
 var test = require('asimov-test');
 
 test('myAwesomeTest', function (test) {
@@ -29,7 +29,7 @@ test('myAwesomeTest', function (test) {
 
 ### Add test command to your package.json
 
-```
+```javascript
 ...
 "scripts": {
   "test": "node node_modules/asimov-test/node_modules/mocha/bin/mocha tests/**/*.test.js"
@@ -39,7 +39,7 @@ test('myAwesomeTest', function (test) {
 
 ### Run the tests
 
-```
+```javascript
 $ npm test
 ```
 
