@@ -32,7 +32,7 @@ test('myAwesomeTest', function (test) {
 ```javascript
 ...
 "scripts": {
-  "test": "node node_modules/asimov-test/node_modules/mocha/bin/mocha tests/**/*.test.js"
+  "test": "node node_modules/asimov-test/bin/test"
 }
 ...
 ```
@@ -41,6 +41,20 @@ test('myAwesomeTest', function (test) {
 
 ```javascript
 $ npm test
+```
+
+Or just use the executable directly...
+
+```javascript
+$ node node_modules/asimov-test/bin/test
+```
+
+### Reporters
+
+By default, the mocha **dot** reporter is used, but you can pass a flag to use any of the reporters that ships with mocha, or that you have installed with npm.
+
+```javascript
+$ node node_modules/asimov-test/bin/test --spec
 ```
 
 ---
