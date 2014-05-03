@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2
+
+  - **Released Saturday May 3rd, 2014 @ 4.05am**
+  - Fixed issue with finding the command index, now iterates over all arguments for fuzzy matching
+
 ## 0.2.1
 
   - **Released Saturday May 3rd, 2014 @ 3.40am**
