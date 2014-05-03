@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0
+
+  - **Released Saturday May 3rd, 2014 @ 3am**
+  - Now ships with an executable that runs all tests in /tests
+  
 ## 0.1.1
 
   - **Released Friday May 2nd, 2014 @ 10.30pm**
