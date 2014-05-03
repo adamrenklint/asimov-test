@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1
+
+  - **Released Saturday May 3rd, 2014 @ 3.40am**
+  - Fixed issue with exporting public classes, now always available
+
 ## 0.2.0
 
   - **Released Saturday May 3rd, 2014 @ 3.30am**
