@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.3
+
+  - **Released Sunday May 4th, 2014 @ 5.15pm**
+  - Use asimov-core 0.2.0
+
 ## 0.2.2
 
   - **Released Saturday May 3rd, 2014 @ 4.05am**

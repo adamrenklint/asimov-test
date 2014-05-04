@@ -1,6 +1,6 @@
 {
   "name": "asimov-test",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Testing toolkit for asimov.js",
   "main": "index.js",
   "author": "Adam Renklint <adam@renklint.com> (http://adamrenklint.com)",
@@ -13,7 +13,7 @@
     "url": "https://github.com/adamrenklint/asimov-test/issues"
   },
   "dependencies": {
-    "asimov-core": "^0.1.0",
+    "asimov-core": "^0.2.0",
     "chai": "^1.9.1",
     "colors": "^0.6.2",
     "lodash": "^2.4.1",
