@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.4
+
+  - **Released Sunday May 11th, 2014 @ 5.35pm**
+  - Pass MUTE environment flag to supress asimov-logger logs
+
 ## 0.2.3
 
   - **Released Sunday May 4th, 2014 @ 5.15pm**
