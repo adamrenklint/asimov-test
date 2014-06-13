@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.5
+
+  - **Released Friday June 13th, 2014 @ 6.15pm**
+  - Fixed error being thrown when a spec suite is stubbed, i.e. has only a name and no callback [#6](https://github.com/adamrenklint/asimov-test/issues/6)
+
 ## 0.2.4
 
   - **Released Sunday May 11th, 2014 @ 5.35pm**
