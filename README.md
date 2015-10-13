@@ -60,3 +60,5 @@ $ node node_modules/asimov-test/bin/test --spec
 ---
 
 Made by [Adam Renklint](http://adamrenklint.com), Berlin 2014. [MIT licensed](https://github.com/adamrenklint/asimov-test/blob/master/LICENSE).
+
+test
