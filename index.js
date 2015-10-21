@@ -9,3 +9,5 @@ module.exports.Test = Test;
 module.exports.Command = require('./lib/Command');
 module.exports.AssertionHelper = require('./lib/AssertionHelper');
 module.exports.RunnerInterface = require('./lib/RunnerInterface');
+
+fooo
