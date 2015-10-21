@@ -23,7 +23,7 @@
     "wunderbits.core": "^0.1.14",
     "zombie": "^2.5.1"
   },
-  "scripts": {
+  "scripts": {asd
     "test": "node bin/test"
   }
 }
